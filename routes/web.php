@@ -21,8 +21,8 @@ use App\Http\Controllers\UserPostController;
 */
 
 Route::get('/', function () {
-    return view('login');
-})->name('login');
+    return view('home');
+})->name('home');
 Route::get('/home', function () {
     return view('home');
 })->name('home');
